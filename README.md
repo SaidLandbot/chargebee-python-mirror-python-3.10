@@ -1,4 +1,4 @@
-# Chargebee Python Client Library v3
+# Chargebee Python Client Library v3 (MIRROR Python 3.10+)
 
 This is the official Python library for integrating with Chargebee.
 - 📘 For a complete reference of available APIs, check out our [API Documentation](https://apidocs.chargebee.com/docs/api/?lang=python).  
@@ -8,7 +8,7 @@ If you're upgrading from an older version please refer to the [Migration Guide](
 
 ## Requirements
 
-- Python 3.11+
+- Python 3.10+
 
 ## Installation
 Install the latest version of the library with pip:
