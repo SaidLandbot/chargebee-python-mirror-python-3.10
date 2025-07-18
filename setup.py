@@ -12,7 +12,7 @@ from chargebee.version import VERSION
 with open("README.md", "r") as file:
     description = file.read()
 
-requires = ["requests"]
+requires = ["requests", "typing_extensions"]
 
 setup(
     name="chargebee-mirror",
