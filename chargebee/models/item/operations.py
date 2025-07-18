@@ -1,6 +1,7 @@
 from .responses import *
 from chargebee import request, environment
-from typing import TypedDict, Required, NotRequired, Dict, List, Any, cast
+from typing_extensions import TypedDict, Required, NotRequired
+from typing import Dict, List, Any, cast
 from enum import Enum
 from chargebee.filters import Filters
 from chargebee.models import enums

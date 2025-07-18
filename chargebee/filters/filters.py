@@ -1,4 +1,5 @@
-from typing import List, NotRequired, TypedDict
+from typing_extensions import TypedDict, Required, NotRequired
+from typing import List
 
 
 class Filters:
