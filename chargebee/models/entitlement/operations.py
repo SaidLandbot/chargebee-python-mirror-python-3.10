@@ -27,6 +27,7 @@ class Entitlement:
         feature_id: Required[str]
         entity_type: NotRequired["Entitlement.EntityType"]
         value: NotRequired[str]
+        apply_grandfathering: NotRequired[bool]
 
     class ListParams(TypedDict):
         limit: NotRequired[int]
@@ -39,6 +40,7 @@ class Entitlement:
 
     class CreateParams(TypedDict):
         action: Required[enums.Action]
+        change_reason: NotRequired[str]
         entitlements: Required[List["Entitlement.CreateEntitlementParams"]]
 
     def list(self, params: ListParams = None, headers=None) -> ListResponse:
